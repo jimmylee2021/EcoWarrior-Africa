@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+     <script src="https://kit.fontawesome.com/dc287775fc.js" crossorigin="anonymous"></script>
+    <title>Eco Warrior Africa</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/IMG-20250817-WA0089.jpg" alt="" width="50px" height="50px">
+            <h2>EcoWarrior Africa</h2>
+        </div>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="fas fa-bars" id="menu-bar"></div>
+    </header>
+    <section class="hero" id="home">
+        <div class="row">
+            <div class="row-1">
+                <h1>Championing Environmental <br> Education and Advocacy</h1>
+                <small>Join us to create positive changes in society <br> through environmental education <br> and advocacy for a sustainable future</small> <br>
+                <a href="" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h1 class="heading">Our Missions</h1>
+        <div class="abt-us">
+            <div class="txt-flex">
+                <div class="txt-bx">
+                    <img src="img/licensed-image-removebg-preview.png" alt="">
+                    <h1>What we stand for?</h1>
+                    <p>we start for promoting environmental education and advocacy for social change to achieve a sustainable future</p>
+                   </div>
+                   <div class="txt-bx">
+                    <img src="img/licensed-image__1_-removebg-preview.png" alt="">
+                    <h1>Empowerment Through Education</h1>
+                    <p>Empowering communities with environmental knowledge and skills for sustainable developments</p>
+                   </div>
+                   <div class="txt-bx">
+                    <img src="img/vecteezy_brand-advocate-flat-style-illlustration_12732873-removebg-preview.png" alt="">
+                    <h1>Advocacy for Change</h1>
+                    <p>Advocating for policies and actions that promote social and environmental justice</p>
+                   </div>
+                   <div class="txt-bx">
+                    <img src="img/vecteezy_unique-reputation-management-icon-design_-removebg-preview.png" alt="">
+                    <h1>SDGs Implementation</h1>
+                    <p>Cotributing to the achievement of the Sustainable  Development Goals through active engagement</p>
+                   </div>
+            </div>
+
+               <div class="empower">
+                <h1 style="text-align: center; color: #81c784;">Empowering Change Through Environmental Education</h1>
+                <div class="emp-flex">
+                    <div class="emp-bx">
+                        <img src="img/licensed-image__3_-removebg-preview.png" alt="">
+                        <h1>2.5x</h1>
+                        <p>Impact on Sustainable Development Goals</p>
+                     </div>
+                     <div class="emp-bx">
+                        <img src="img/licensed-image__2_-removebg-preview.png" alt="">
+                        <h1>80%</h1>
+                        <p>Increase in Awareness Levels</p>
+                     </div>
+                     <div class="emp-bx">
+                        <img src="img/licensed-image__6_-removebg-preview.png" alt="" srcset="">
+                        <h1>3.7x</h1>
+                        <p>Community Engagement Growth</p>
+                     </div>
+                     <div class="emp-bx">
+                        <img src="img/licensed-image__4_-removebg-preview.png" alt="">
+                        <h1>95%</h1>
+                        <p>Positive Feedback from Participants</p>
+                     </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="founder">
+        <div class="founder-bx">
+            <div class="img">
+                <img src="img/IMG-20250817-WA0090.jpg" alt="">
+            </div>
+            <div class="img-txt">
+                <h1>From Our Founder</h1>
+                <p>
+                    "AS a young environmentalist, I founded EcoWarrior Africa to ignite climate consciousness and empower communities to take bold action for our planet. This initiative is more than a project its a movement to inspire,educate, and equip the next generation of eco-leaders across Africa. Together, we can protect our environment and build a sustainable future "
+                <em>Yusuf Fasilat A, Founder,EcoWarrior Africa.</em>
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="c-flex">
+            <div class="contact-bx">
+                <h1>Join The Ecowarriors for a Greener Future</h1>
+                <p>Emporing change through <br>environmental education and advocacy</p>
+                <div class="link-div">
+                    <a href="mailto:ecowarriorafrica@gmail.com">ecowarriorafrica@gmail.com</a>
+                </div>
+                <div class="link-div">
+                    <a href="tel:+">+2348165158807</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <h2>&copy; EcoWarrior All rights reserved 2025</h2>
+    </footer>
+</body>
+<script>
+     window.addEventListener('scroll', ()=> {
+   var header = document.querySelector('header')
+   header.classList.toggle('sticky', window.scrollY > 0)
+ })
+ 
+ let menu = document.querySelector('#menu-bar')
+let navbar = document.querySelector('.nav');
+
+menu.addEventListener('click', ()=>{
+   menu.classList.toggle('fa-times')
+   navbar.classList.toggle('active')
+
+   window.onscroll = () => {
+      menu.classList.remove('fa-time')
+      menu.classList.remove('active')
+   }
+})
+</script>
+</html>
